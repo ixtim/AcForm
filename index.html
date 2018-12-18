@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Actum Pre-Interview Test">
+<meta name="author" content="Mustafa Bozkurt">
+<link rel="icon" href="favicon.ico">
+<title>ACTUM - Pre-Interview</title>
+
+<!-- CSS -->
+
+<link href="bootstrap.min.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+
+<!-- Modernizr SVG -->
+
+<script src="modernizr-custom.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="validation.js"></script>
+</head>
+
+<body class="text-center">
+
+<!-- Header -->
+
+<header>
+<nav class="navbar navbar-expand-md fixed-top navbar-light bg-white border-bottom fixed-top">
+<div class="container">
+<a class="navbar-brand" href="#"><img src="logo.svg" alt="Aclogo" class="logo"></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+<div class="collapse navbar-collapse" id="navbarCollapse">
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item active"> <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> </li>
+    <li class="nav-item"> <a class="nav-link" href="#">Link</a> </li>
+    <li class="nav-item"> <a class="nav-link" href="#">Link Two</a> </li>
+  </ul>
+</div>
+</nav>
+</header>
+
+<!-- Content -->
+
+<div class="container">
+  <div class="pricing-header py-3 pt-md-5 mx-auto text-center">
+    <h1 class="display-4">Pre-Interview</h1>
+    <p class="lead">Lorem ipsum dolor sit amet, vis in velit tempor. No hendrerit torquatos argumentum cum. Et adhuc dolores sea, mea elit veniam doctus te.</p>
+  </div>
+  <div class="pricing-header py-3 pt-md-5 mx-auto text-left">
+       <form id="form" method="post">
+      <div class="form-row">
+        <div class="col-md-4 mb-3">
+          <label for="validationDefault01">Name</label>
+          <input type="Name" name="name" class="form-control" id="name" placeholder="Mustafa" required>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="validationDefault02">Surname</label>
+          <input type="Surname" name="surname" class="form-control" id="surname" placeholder="Bozkurt" required>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="validationDefaultUsername">E-mail</label>
+          <div class="input-group">
+            <input type="email" name="email" class="form-control default" id="email" placeholder="@" required>
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <label for="validationDefault03">Date</label>
+        <input type="date" name="birthday" name="date" class="form-control" id="date" placeholder="03/10/1987">
+      </div>
+      <div class="col-md-3 mb-3">
+        <label for="validationDefault04">Number of children</label>
+        <input type="number" name="children" class="form-control" id="children" placeholder="0" value="0">
+      </div>
+      <div class="col-md-3 mb-3">
+      <label class="control-label" for="gender">Gender</label>
+      <div class="controls">
+      <label class="radio inline" for="gender-0">
+        <input name="gender" id="gender-0" value="Male" checked="checked" type="radio">
+        Male </label>
+      <label class="radio inline" for="gender-1">
+      <input name="gender" id="gender-1" value="Female" type="radio">
+      Female
+      </div>
+      </div>
+
+      <button class="btn btn-primary btn-lg btn-block" id="submit" name="submit" type="submit">Submit Form</button>
+      <div id="results"></div>
+    </form>
+  </div>
+</div>
+  </div>
+
+
+<table></table>
+
+
+
+<!-- Footer -->
+
+<div id="footer" class="border-top bg-white">
+  <div class="container">
+    <p class="footer-block">© 2018-2019 Mustafa Bozkurt</p>
+  </div>
+</div>
+
+<!-- JavaScript --> 
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> 
+<script src="bootstrap.min.js"></script> 
+<script>
+      if(!Modernizr.svg)var i=document.getElementsByTagName("img"),j,y;for(j=i.length;j--;)y=i[j].src,y.match(/svg$/)&&(i[j].src=y.slice(0,-3)+"png")
+    </script> 
+
+<!-- END -->
+
+</body>
+</html>
